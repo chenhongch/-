@@ -1,8 +1,8 @@
 # HmeScroMenu
 封装了常用首页滚动菜单，可自主进行自定义
-###使用
+### 使用
 拷贝demo里面的MenuBtn放到工程中
-###实例代码
+### 实例代码
  ```
   MenuBtnView *menu1 = [[MenuBtnView alloc]init];
     menu1.frame = CGRectMake(0, 250, self.view.frame.size.width, 180);
