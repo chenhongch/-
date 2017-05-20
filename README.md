@@ -3,8 +3,8 @@
 ###使用
 拷贝demo里面的MenuBtn放到工程中
 ###实例代码
- ,,,
- MenuBtnView *menu1 = [[MenuBtnView alloc]init];
+ ```
+  MenuBtnView *menu1 = [[MenuBtnView alloc]init];
     menu1.frame = CGRectMake(0, 250, self.view.frame.size.width, 180);
     [self.view addSubview:menu1];
     menu.delegate = self;
@@ -14,6 +14,6 @@
     menu1.currentDotcolor = [UIColor purpleColor];
     menu1.dotcolor = [UIColor redColor];
     menu1.delegate = self;
-    ,,,
+```
 
 <h1 id="toc_0"><img src="media/14952486772382/menuBtView.png" alt="menuBtVie"/>￼</h1>
